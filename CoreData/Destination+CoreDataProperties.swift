@@ -17,25 +17,35 @@ extension Destination {
         return NSFetchRequest<Destination>(entityName: "Destination")
     }
 
+    @NSManaged public var infoText1: String?
+    @NSManaged public var infoText2: String?
+    @NSManaged public var infoText3: String?
+    @NSManaged public var infoText4: String?
+    @NSManaged public var infoText5: String?
+    @NSManaged public var infoText6: String?
+    @NSManaged public var infoText7: String?
+    @NSManaged public var infoText8: String?
+    @NSManaged public var infoText9: String?
+    @NSManaged public var infoText10: String?
     @NSManaged public var name: String?
-    @NSManaged public var info1: String?
-    @NSManaged public var info2: String?
-    @NSManaged public var info3: String?
-    @NSManaged public var info4: String?
-    @NSManaged public var info5: String?
-    @NSManaged public var info6: String?
-    @NSManaged public var info7: String?
-    @NSManaged public var info8: String?
-    @NSManaged public var info9: String?
-    @NSManaged public var info10: String?
-    @NSManaged public var warningTitle1: String?
-    @NSManaged public var warningTitle2: String?
-    @NSManaged public var warningTitle3: String?
     @NSManaged public var warningSubtitle1: String?
     @NSManaged public var warningSubtitle2: String?
     @NSManaged public var warningSubtitle3: String?
     @NSManaged public var warningText1: String?
     @NSManaged public var warningText2: String?
     @NSManaged public var warningText3: String?
+    @NSManaged public var warningTitle1: String?
+    @NSManaged public var warningTitle2: String?
+    @NSManaged public var warningTitle3: String?
+    @NSManaged public var infoTitle1: String?
+    @NSManaged public var infoTitle2: String?
+    @NSManaged public var infoTitle3: String?
+    @NSManaged public var infoTitle4: String?
+    @NSManaged public var infoTitle5: String?
+    @NSManaged public var infoTitle6: String?
+    @NSManaged public var infoTitle7: String?
+    @NSManaged public var infoTitle8: String?
+    @NSManaged public var infoTitle9: String?
+    @NSManaged public var infoTitle10: String?
 
 }

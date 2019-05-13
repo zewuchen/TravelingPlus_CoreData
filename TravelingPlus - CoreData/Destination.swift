@@ -12,16 +12,26 @@ typealias Destinations = [DestinationData]
 
 struct DestinationData: Codable {
     public var name: String?
-    public var info1: String?
-    public var info2: String?
-    public var info3: String?
-    public var info4: String?
-    public var info5: String?
-    public var info6: String?
-    public var info7: String?
-    public var info8: String?
-    public var info9: String?
-    public var info10: String?
+    public var infoText1: String?
+    public var infoText2: String?
+    public var infoText3: String?
+    public var infoText4: String?
+    public var infoText5: String?
+    public var infoText6: String?
+    public var infoText7: String?
+    public var infoText8: String?
+    public var infoText9: String?
+    public var infoText10: String?
+    public var infoTitle1: String?
+    public var infoTitle2: String?
+    public var infoTitle3: String?
+    public var infoTitle4: String?
+    public var infoTitle5: String?
+    public var infoTitle6: String?
+    public var infoTitle7: String?
+    public var infoTitle8: String?
+    public var infoTitle9: String?
+    public var infoTitle10: String?
     public var warningTitle1: String?
     public var warningSubtitle1: String?
     public var warningText1: String?

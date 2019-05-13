@@ -14,16 +14,26 @@
         <attribute name="visa" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <entity name="Destination" representedClassName=".Destination" syncable="YES">
-        <attribute name="info1" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="info2" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="info3" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="info4" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="info5" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="info6" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="info7" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="info8" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="info9" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="info10" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoText1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoText2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoText3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoText4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoText5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoText6" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoText7" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoText8" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoText9" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoText10" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoTitle1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoTitle2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoTitle3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoTitle4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoTitle5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoTitle6" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoTitle7" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoTitle8" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoTitle9" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoTitle10" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="warningSubtitle1" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="warningSubtitle2" optional="YES" attributeType="String" syncable="YES"/>
@@ -37,6 +47,6 @@
     </entity>
     <elements>
         <element name="Country" positionX="-63" positionY="-18" width="128" height="210"/>
-        <element name="Destination" positionX="-63" positionY="63" width="128" height="345"/>
+        <element name="Destination" positionX="-63" positionY="63" width="128" height="495"/>
     </elements>
 </model>

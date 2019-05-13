@@ -64,16 +64,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                         let registry = NSEntityDescription.insertNewObject(forEntityName: "Destination", into: self.persistentContainer.viewContext) as! Destination
                         
                         registry.name = destinations[i].name
-                        registry.info1 = destinations[i].info1
-                        registry.info2 = destinations[i].info2
-                        registry.info3 = destinations[i].info3
-                        registry.info4 = destinations[i].info4
-                        registry.info5 = destinations[i].info5
-                        registry.info6 = destinations[i].info6
-                        registry.info7 = destinations[i].info7
-                        registry.info8 = destinations[i].info8
-                        registry.info9 = destinations[i].info9
-                        registry.info10 = destinations[i].info10
+                        registry.infoText1 = destinations[i].infoText1
+                        registry.infoText2 = destinations[i].infoText2
+                        registry.infoText3 = destinations[i].infoText3
+                        registry.infoText4 = destinations[i].infoText4
+                        registry.infoText5 = destinations[i].infoText5
+                        registry.infoText6 = destinations[i].infoText6
+                        registry.infoText7 = destinations[i].infoText7
+                        registry.infoText8 = destinations[i].infoText8
+                        registry.infoText9 = destinations[i].infoText9
+                        registry.infoText10 = destinations[i].infoText10
+                        registry.infoTitle1 = destinations[i].infoTitle1
+                        registry.infoTitle2 = destinations[i].infoTitle2
+                        registry.infoTitle3 = destinations[i].infoTitle3
+                        registry.infoTitle4 = destinations[i].infoTitle4
+                        registry.infoTitle5 = destinations[i].infoTitle5
+                        registry.infoTitle6 = destinations[i].infoTitle6
+                        registry.infoTitle7 = destinations[i].infoTitle7
+                        registry.infoTitle8 = destinations[i].infoTitle8
+                        registry.infoTitle9 = destinations[i].infoTitle9
+                        registry.infoTitle10 = destinations[i].infoTitle10
                         registry.warningTitle1 = destinations[i].warningTitle1
                         registry.warningSubtitle1 = destinations[i].warningSubtitle1
                         registry.warningText1 = destinations[i].warningText1
@@ -99,7 +109,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //            var registros:[Destination] = []
 //            registros = try self.persistentContainer.viewContext.fetch(Destination.fetchRequest())
 //
-//            print(registros[1].name!, " ", registros[1].warningTitle1!, " ", registros[1].warningText1!)
+//            print(registros[1].name!, " ", registros[1].infoText1!, " ", registros[1].infoTitle1!)
 //        } catch {
 //            print("Não deu pra encontrar os registros")
 //        }

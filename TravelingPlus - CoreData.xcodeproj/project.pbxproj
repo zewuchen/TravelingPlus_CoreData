@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		8C81D6922289BA3B00C8D619 /* model.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C81D6912289BA3B00C8D619 /* model.json */; };
 		8C9F64BD2289F2470029777F /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9F64BC2289F2470029777F /* Destination.swift */; };
-		8C9F64C4228A09BC0029777F /* Destination+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9F64C2228A09BC0029777F /* Destination+CoreDataClass.swift */; };
-		8C9F64C5228A09BC0029777F /* Destination+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9F64C3228A09BC0029777F /* Destination+CoreDataProperties.swift */; };
+		8C9F64C8228A0E160029777F /* Destination+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9F64C6228A0E160029777F /* Destination+CoreDataClass.swift */; };
+		8C9F64C9228A0E160029777F /* Destination+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9F64C7228A0E160029777F /* Destination+CoreDataProperties.swift */; };
 		8CD3F0112289CDB80058AB5B /* destination.json in Resources */ = {isa = PBXBuildFile; fileRef = 8CD3F0102289CDB80058AB5B /* destination.json */; };
 		8CD3F01A2289E7D00058AB5B /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD3F0182289E7D00058AB5B /* Country+CoreDataClass.swift */; };
 		8CD3F01B2289E7D00058AB5B /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD3F0192289E7D00058AB5B /* Country+CoreDataProperties.swift */; };
@@ -27,8 +27,8 @@
 /* Begin PBXFileReference section */
 		8C81D6912289BA3B00C8D619 /* model.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = model.json; sourceTree = "<group>"; };
 		8C9F64BC2289F2470029777F /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
-		8C9F64C2228A09BC0029777F /* Destination+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Destination+CoreDataClass.swift"; sourceTree = "<group>"; };
-		8C9F64C3228A09BC0029777F /* Destination+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Destination+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8C9F64C6228A0E160029777F /* Destination+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Destination+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8C9F64C7228A0E160029777F /* Destination+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Destination+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8CD3F0102289CDB80058AB5B /* destination.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = destination.json; sourceTree = "<group>"; };
 		8CD3F0182289E7D00058AB5B /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
 		8CD3F0192289E7D00058AB5B /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -94,8 +94,8 @@
 		8CDCE5422289B4B500B56B43 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				8C9F64C2228A09BC0029777F /* Destination+CoreDataClass.swift */,
-				8C9F64C3228A09BC0029777F /* Destination+CoreDataProperties.swift */,
+				8C9F64C6228A0E160029777F /* Destination+CoreDataClass.swift */,
+				8C9F64C7228A0E160029777F /* Destination+CoreDataProperties.swift */,
 				8CD3F0182289E7D00058AB5B /* Country+CoreDataClass.swift */,
 				8CD3F0192289E7D00058AB5B /* Country+CoreDataProperties.swift */,
 			);
@@ -176,13 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C9F64C4228A09BC0029777F /* Destination+CoreDataClass.swift in Sources */,
+				8C9F64C8228A0E160029777F /* Destination+CoreDataClass.swift in Sources */,
 				8CDCE5322289B41200B56B43 /* TravelingPlus___CoreData.xcdatamodeld in Sources */,
 				8CDCE52C2289B41200B56B43 /* ViewController.swift in Sources */,
 				8CDCE5442289B4C700B56B43 /* Country.swift in Sources */,
 				8CD3F01A2289E7D00058AB5B /* Country+CoreDataClass.swift in Sources */,
 				8CDCE52A2289B41200B56B43 /* AppDelegate.swift in Sources */,
-				8C9F64C5228A09BC0029777F /* Destination+CoreDataProperties.swift in Sources */,
+				8C9F64C9228A0E160029777F /* Destination+CoreDataProperties.swift in Sources */,
 				8CD3F01B2289E7D00058AB5B /* Country+CoreDataProperties.swift in Sources */,
 				8C9F64BD2289F2470029777F /* Destination.swift in Sources */,
 			);
