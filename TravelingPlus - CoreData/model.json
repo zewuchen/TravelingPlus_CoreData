@@ -29,15 +29,15 @@
         "info8": "NULL",
         "info9": "NULL",
         "info10": "NULL",
-        "title1": "NULL",
-        "subtitle1": "NULL",
-        "text1": "NULL",
-        "title2": "NULL",
-        "subtitle2": "NULL",
-        "text2": "NULL",
-        "title3": "NULL",
-        "subtitle3": "NULL",
-        "text3": "NULL"
+        "warningTitle1": "NULL",
+        "warningSubtitle1": "NULL",
+        "warningText1": "NULL",
+        "warningTitle2": "NULL",
+        "warningSubtitle2": "NULL",
+        "warningText2": "NULL",
+        "warningTitle3": "NULL",
+        "warningSubtitle3": "NULL",
+        "warningText3": "NULL"
         
     }
 ]

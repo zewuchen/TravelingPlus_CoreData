@@ -28,14 +28,14 @@ extension Destination {
     @NSManaged public var info8: String?
     @NSManaged public var info9: String?
     @NSManaged public var info10: String?
-    @NSManaged public var title1: String?
-    @NSManaged public var title2: String?
-    @NSManaged public var title3: String?
-    @NSManaged public var subtitle1: String?
-    @NSManaged public var subtitle2: String?
-    @NSManaged public var subtitle3: String?
-    @NSManaged public var text1: String?
-    @NSManaged public var text2: String?
-    @NSManaged public var text3: String?
+    @NSManaged public var warningTitle1: String?
+    @NSManaged public var warningTitle2: String?
+    @NSManaged public var warningTitle3: String?
+    @NSManaged public var warningSubtitle1: String?
+    @NSManaged public var warningSubtitle2: String?
+    @NSManaged public var warningSubtitle3: String?
+    @NSManaged public var warningText1: String?
+    @NSManaged public var warningText2: String?
+    @NSManaged public var warningText3: String?
 
 }

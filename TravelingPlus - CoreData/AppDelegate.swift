@@ -74,15 +74,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                         registry.info8 = destinations[i].info8
                         registry.info9 = destinations[i].info9
                         registry.info10 = destinations[i].info10
-                        registry.title1 = destinations[i].title1
-                        registry.subtitle1 = destinations[i].subtitle1
-                        registry.text1 = destinations[i].text1
-                        registry.title2 = destinations[i].title2
-                        registry.subtitle2 = destinations[i].subtitle2
-                        registry.text2 = destinations[i].text2
-                        registry.title3 = destinations[i].title3
-                        registry.subtitle3 = destinations[i].subtitle3
-                        registry.text3 = destinations[i].text3
+                        registry.warningTitle1 = destinations[i].warningTitle1
+                        registry.warningSubtitle1 = destinations[i].warningSubtitle1
+                        registry.warningText1 = destinations[i].warningText1
+                        registry.warningTitle2 = destinations[i].warningTitle2
+                        registry.warningSubtitle2 = destinations[i].warningSubtitle2
+                        registry.warningText2 = destinations[i].warningText2
+                        registry.warningTitle3 = destinations[i].warningTitle3
+                        registry.warningSubtitle3 = destinations[i].warningSubtitle3
+                        registry.warningText3 = destinations[i].warningText3
                         
                         self.saveContext()
                     }
@@ -95,14 +95,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         //Testes
-        do {
-            var registros:[Destination] = []
-            registros = try self.persistentContainer.viewContext.fetch(Destination.fetchRequest())
-
-            print(registros[0].name!, " ", registros[0].title1!, " ", registros[0].text1!)
-        } catch {
-            print("Não deu pra encontrar os registros")
-        }
+//        do {
+//            var registros:[Destination] = []
+//            registros = try self.persistentContainer.viewContext.fetch(Destination.fetchRequest())
+//
+//            print(registros[1].name!, " ", registros[1].warningTitle1!, " ", registros[1].warningText1!)
+//        } catch {
+//            print("Não deu pra encontrar os registros")
+//        }
         
         return true
     }

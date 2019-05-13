@@ -25,15 +25,15 @@
         <attribute name="info9" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="info10" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="subtitle1" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="subtitle2" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="subtitle3" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="text1" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="text2" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="text3" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="title1" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="title2" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="title3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="warningSubtitle1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="warningSubtitle2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="warningSubtitle3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="warningText1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="warningText2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="warningText3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="warningTitle1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="warningTitle2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="warningTitle3" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
         <element name="Country" positionX="-63" positionY="-18" width="128" height="210"/>
