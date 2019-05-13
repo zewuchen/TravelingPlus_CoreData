@@ -1,6 +1,6 @@
 [
     {
-        "name": "Argentina",
+        "name": "Teste",
         "info1": "Teste",
         "info2": "Teste",
         "info3": "Teste",
@@ -10,72 +10,16 @@
         "info7": "NULL",
         "info8": "NULL",
         "info9": "NULL",
-        "info10": "NULL"
-    },
-    {
-        "name": "Brazil",
-        "info1": "The outlets in Brazil are of type N. Three round holes, two parallel at the base and one in the middle and slightly above.",
-        "info2": "Penalty in Brazil is 18 years.",
-        "info3": "Some Brazilian urban areas face problems of public security, with emphasis on certain areas of the capital and cities such as São Paulo and Rio de Janeiro.",
-        "info4": "The foreigner admitted in the national territory can not exercise political activity nor interfere, directly or indirectly, in the public affairs of Brazil, being specially forbidden to him: (...) organize parades, rallies, rallies and meetings of any nature, or participate in them.",
-        "info5": "In Brazil, the individual commands are normal things and your requests are charged at the end when ordering the account.",
-        "info6": "Punctuality in Brazil happens only for work occasions. For festive and leisure events, punctuality works differently, it is socially accepted that you arrive after the scheduled time.",
-        "info7": "Bathroom. In Brasil toilet paper is usually thrown in the trash. This is because the pipes that make up the toilet and its sewage system are thinner than those of other countries. So throwing toilet paper in the toilet can clog more easily.",
-        "info8": "There are people on the street who call themselves flanelinhas who stand in the street taking care of your car and they usually ask for some change to take care of your car and the moment you return they are no longer there caring. It is advisable to give a little money because there is a risk of scratching your vehicle when you return if you do not give a little money.",
-        "info9": "In Brazil people are very warm. It is normal to greet people with kisses on the face and hugs. Its very common between woman do that and between man and woman. But its not usual to do this compliment of kissing between man. ",
-        "info10": "Brazilian beer is usually cold and if not, it's okay to order an ice one."
-    },
-    {
-        "name": "Chile",
-        "info1": "Teste",
-        "info2": "Teste",
-        "info3": "Teste",
-        "info4": "Teste",
-        "info5": "Teste",
-        "info6": "NULL",
-        "info7": "NULL",
-        "info8": "NULL",
-        "info9": "NULL",
-        "info10": "NULL"
-    },
-    {
-        "name": "Colombia",
-        "info1": "Teste",
-        "info2": "Teste",
-        "info3": "Teste",
-        "info4": "Teste",
-        "info5": "Teste",
-        "info6": "NULL",
-        "info7": "NULL",
-        "info8": "NULL",
-        "info9": "NULL",
-        "info10": "NULL"
-    },
-    {
-        "name": "Peru",
-        "info1": "The electric current of Peru is 220V, 60Hz. Its sockets have three types, type A, B and C.",
-        "info2": "Teste",
-        "info3": "Teste",
-        "info4": "Teste",
-        "info5": "Teste",
-        "info6": "NULL",
-        "info7": "NULL",
-        "info8": "NULL",
-        "info9": "NULL",
-        "info10": "NULL"
-    },
-    {
-        "name": "Uruguay",
-        "info1": "Teste",
-        "info2": "Teste",
-        "info3": "Teste",
-        "info4": "Teste",
-        "info5": "Teste",
-        "info6": "NULL",
-        "info7": "NULL",
-        "info8": "NULL",
-        "info9": "NULL",
-        "info10": "NULL"
+        "info10": "NULL",
+        "title1": "TesteTitulo",
+        "subtitle1": "NULL",
+        "text1": "TesteTexto",
+        "title2": "NULL",
+        "subtitle2": "NULL",
+        "text2": "NULL",
+        "title3": "NULL",
+        "subtitle3": "NULL",
+        "text3": "NULL"
+        
     }
 ]
-

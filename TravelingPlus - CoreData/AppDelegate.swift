@@ -52,15 +52,54 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 print("Erro ao inserir os dados de Países")
             }
             
+            //Inserção de Destination
+            do {
+                if let path = Bundle.main.path(forResource: "destination", ofType: "json", inDirectory: nil)
+                {
+                    let url = URL(fileURLWithPath: path)
+                    let jsonData = try Data(contentsOf: url)
+                    let destinations = try JSONDecoder().decode(Destinations.self, from: jsonData)
+                    
+                    for i in 0...destinations.count-1{
+                        let registry = NSEntityDescription.insertNewObject(forEntityName: "Destination", into: self.persistentContainer.viewContext) as! Destination
+                        
+                        registry.name = destinations[i].name
+                        registry.info1 = destinations[i].info1
+                        registry.info2 = destinations[i].info2
+                        registry.info3 = destinations[i].info3
+                        registry.info4 = destinations[i].info4
+                        registry.info5 = destinations[i].info5
+                        registry.info6 = destinations[i].info6
+                        registry.info7 = destinations[i].info7
+                        registry.info8 = destinations[i].info8
+                        registry.info9 = destinations[i].info9
+                        registry.info10 = destinations[i].info10
+                        registry.title1 = destinations[i].title1
+                        registry.subtitle1 = destinations[i].subtitle1
+                        registry.text1 = destinations[i].text1
+                        registry.title2 = destinations[i].title2
+                        registry.subtitle2 = destinations[i].subtitle2
+                        registry.text2 = destinations[i].text2
+                        registry.title3 = destinations[i].title3
+                        registry.subtitle3 = destinations[i].subtitle3
+                        registry.text3 = destinations[i].text3
+                        
+                        self.saveContext()
+                    }
+                }
+            } catch {
+                print("Erro ao inserir os dados de Destination")
+            }
+            
             defaults.set(true, forKey: "opened")
         }
         
         //Testes
         do {
-            var registros:[Country] = []
-            registros = try self.persistentContainer.viewContext.fetch(Country.fetchRequest())
+            var registros:[Destination] = []
+            registros = try self.persistentContainer.viewContext.fetch(Destination.fetchRequest())
 
-            print(registros[0].name!, " ", registros[0].visa!, " ", registros[0].cost!)
+            print(registros[0].name!, " ", registros[0].title1!, " ", registros[0].text1!)
         } catch {
             print("Não deu pra encontrar os registros")
         }

@@ -13,7 +13,30 @@
         <attribute name="vality" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="visa" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
+    <entity name="Destination" representedClassName=".Destination" syncable="YES">
+        <attribute name="info1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info6" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info7" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info8" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info9" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info10" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subtitle1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subtitle2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subtitle3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title3" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <elements>
         <element name="Country" positionX="-63" positionY="-18" width="128" height="210"/>
+        <element name="Destination" positionX="-63" positionY="63" width="128" height="345"/>
     </elements>
 </model>
