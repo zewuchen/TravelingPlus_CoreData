@@ -9,9 +9,11 @@
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="others" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="procedure" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vaccines" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="vality" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="visa" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Country" positionX="-63" positionY="-18" width="128" height="180"/>
+        <element name="Country" positionX="-63" positionY="-18" width="128" height="210"/>
     </elements>
 </model>

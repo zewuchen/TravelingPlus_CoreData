@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         if !opened{
             
+            //Inserção de países
             do {
                 if let path = Bundle.main.path(forResource: "country", ofType: "json", inDirectory: nil)
                 {
@@ -41,22 +42,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                         registry.cost = countries[i].cost
                         registry.vality = countries[i].vality
                         registry.others = countries[i].others
+                        registry.visa = countries[i].visa
+                        registry.vaccines = countries[i].vaccines
                         
                         self.saveContext()
                     }
                 }
             } catch {
-                print("Erro ao inserir os dados")
+                print("Erro ao inserir os dados de Países")
             }
             
             defaults.set(true, forKey: "opened")
         }
         
+        //Testes
         do {
             var registros:[Country] = []
             registros = try self.persistentContainer.viewContext.fetch(Country.fetchRequest())
-            
-            print(registros[0].name!, " ", registros[1].name!, " ", registros[5].name!)
+
+            print(registros[0].name!, " ", registros[0].visa!, " ", registros[0].cost!)
         } catch {
             print("Não deu pra encontrar os registros")
         }

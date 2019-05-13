@@ -23,8 +23,10 @@ extension Country {
     @NSManaged public var location1: String?
     @NSManaged public var location2: String?
     @NSManaged public var name: String?
+    @NSManaged public var others: String?
     @NSManaged public var procedure: String?
     @NSManaged public var vality: String?
-    @NSManaged public var others: String?
+    @NSManaged public var visa: String?
+    @NSManaged public var vaccines: String?
 
 }

@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C81D68F2289B99000C8D619 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C81D68D2289B99000C8D619 /* Country+CoreDataClass.swift */; };
-		8C81D6902289B99000C8D619 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C81D68E2289B99000C8D619 /* Country+CoreDataProperties.swift */; };
 		8C81D6922289BA3B00C8D619 /* model.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C81D6912289BA3B00C8D619 /* model.json */; };
+		8CD3F0112289CDB80058AB5B /* destination.json in Resources */ = {isa = PBXBuildFile; fileRef = 8CD3F0102289CDB80058AB5B /* destination.json */; };
+		8CD3F01A2289E7D00058AB5B /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD3F0182289E7D00058AB5B /* Country+CoreDataClass.swift */; };
+		8CD3F01B2289E7D00058AB5B /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD3F0192289E7D00058AB5B /* Country+CoreDataProperties.swift */; };
 		8CDCE52A2289B41200B56B43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDCE5292289B41200B56B43 /* AppDelegate.swift */; };
 		8CDCE52C2289B41200B56B43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDCE52B2289B41200B56B43 /* ViewController.swift */; };
 		8CDCE52F2289B41200B56B43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDCE52D2289B41200B56B43 /* Main.storyboard */; };
@@ -21,9 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8C81D68D2289B99000C8D619 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
-		8C81D68E2289B99000C8D619 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8C81D6912289BA3B00C8D619 /* model.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = model.json; sourceTree = "<group>"; };
+		8CD3F0102289CDB80058AB5B /* destination.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = destination.json; sourceTree = "<group>"; };
+		8CD3F0182289E7D00058AB5B /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8CD3F0192289E7D00058AB5B /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8CDCE5262289B41200B56B43 /* TravelingPlus - CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TravelingPlus - CoreData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CDCE5292289B41200B56B43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CDCE52B2289B41200B56B43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				8CDCE5302289B41200B56B43 /* TravelingPlus___CoreData.xcdatamodeld */,
 				8CDCE5432289B4C700B56B43 /* Country.swift */,
 				8CDCE5452289B4E300B56B43 /* country.json */,
+				8CD3F0102289CDB80058AB5B /* destination.json */,
 				8C81D6912289BA3B00C8D619 /* model.json */,
 			);
 			path = "TravelingPlus - CoreData";
@@ -84,8 +87,8 @@
 		8CDCE5422289B4B500B56B43 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				8C81D68D2289B99000C8D619 /* Country+CoreDataClass.swift */,
-				8C81D68E2289B99000C8D619 /* Country+CoreDataProperties.swift */,
+				8CD3F0182289E7D00058AB5B /* Country+CoreDataClass.swift */,
+				8CD3F0192289E7D00058AB5B /* Country+CoreDataProperties.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				8CDCE5372289B41300B56B43 /* LaunchScreen.storyboard in Resources */,
 				8C81D6922289BA3B00C8D619 /* model.json in Resources */,
 				8CDCE5342289B41300B56B43 /* Assets.xcassets in Resources */,
+				8CD3F0112289CDB80058AB5B /* destination.json in Resources */,
 				8CDCE52F2289B41200B56B43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,10 +169,10 @@
 			files = (
 				8CDCE5322289B41200B56B43 /* TravelingPlus___CoreData.xcdatamodeld in Sources */,
 				8CDCE52C2289B41200B56B43 /* ViewController.swift in Sources */,
-				8C81D6902289B99000C8D619 /* Country+CoreDataProperties.swift in Sources */,
 				8CDCE5442289B4C700B56B43 /* Country.swift in Sources */,
-				8C81D68F2289B99000C8D619 /* Country+CoreDataClass.swift in Sources */,
+				8CD3F01A2289E7D00058AB5B /* Country+CoreDataClass.swift in Sources */,
 				8CDCE52A2289B41200B56B43 /* AppDelegate.swift in Sources */,
+				8CD3F01B2289E7D00058AB5B /* Country+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

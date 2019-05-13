@@ -20,4 +20,6 @@ struct CountryData: Codable {
     public var cost: String?
     public var vality: String?
     public var others: String?
+    public var visa: String?
+    public var vaccines: String?
 }
