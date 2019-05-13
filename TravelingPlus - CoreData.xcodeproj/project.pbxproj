@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C81D68F2289B99000C8D619 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C81D68D2289B99000C8D619 /* Country+CoreDataClass.swift */; };
+		8C81D6902289B99000C8D619 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C81D68E2289B99000C8D619 /* Country+CoreDataProperties.swift */; };
+		8C81D6922289BA3B00C8D619 /* model.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C81D6912289BA3B00C8D619 /* model.json */; };
 		8CDCE52A2289B41200B56B43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDCE5292289B41200B56B43 /* AppDelegate.swift */; };
 		8CDCE52C2289B41200B56B43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDCE52B2289B41200B56B43 /* ViewController.swift */; };
 		8CDCE52F2289B41200B56B43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDCE52D2289B41200B56B43 /* Main.storyboard */; };
 		8CDCE5322289B41200B56B43 /* TravelingPlus___CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CDCE5302289B41200B56B43 /* TravelingPlus___CoreData.xcdatamodeld */; };
 		8CDCE5342289B41300B56B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CDCE5332289B41300B56B43 /* Assets.xcassets */; };
 		8CDCE5372289B41300B56B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDCE5352289B41300B56B43 /* LaunchScreen.storyboard */; };
+		8CDCE5442289B4C700B56B43 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDCE5432289B4C700B56B43 /* Country.swift */; };
+		8CDCE5462289B4E300B56B43 /* country.json in Resources */ = {isa = PBXBuildFile; fileRef = 8CDCE5452289B4E300B56B43 /* country.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C81D68D2289B99000C8D619 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8C81D68E2289B99000C8D619 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8C81D6912289BA3B00C8D619 /* model.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = model.json; sourceTree = "<group>"; };
 		8CDCE5262289B41200B56B43 /* TravelingPlus - CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TravelingPlus - CoreData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CDCE5292289B41200B56B43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CDCE52B2289B41200B56B43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +32,8 @@
 		8CDCE5332289B41300B56B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CDCE5362289B41300B56B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CDCE5382289B41300B56B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CDCE5432289B4C700B56B43 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		8CDCE5452289B4E300B56B43 /* country.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = country.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,7 @@
 		8CDCE51D2289B41200B56B43 = {
 			isa = PBXGroup;
 			children = (
+				8CDCE5422289B4B500B56B43 /* CoreData */,
 				8CDCE5282289B41200B56B43 /* TravelingPlus - CoreData */,
 				8CDCE5272289B41200B56B43 /* Products */,
 			);
@@ -63,8 +74,20 @@
 				8CDCE5352289B41300B56B43 /* LaunchScreen.storyboard */,
 				8CDCE5382289B41300B56B43 /* Info.plist */,
 				8CDCE5302289B41200B56B43 /* TravelingPlus___CoreData.xcdatamodeld */,
+				8CDCE5432289B4C700B56B43 /* Country.swift */,
+				8CDCE5452289B4E300B56B43 /* country.json */,
+				8C81D6912289BA3B00C8D619 /* model.json */,
 			);
 			path = "TravelingPlus - CoreData";
+			sourceTree = "<group>";
+		};
+		8CDCE5422289B4B500B56B43 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				8C81D68D2289B99000C8D619 /* Country+CoreDataClass.swift */,
+				8C81D68E2289B99000C8D619 /* Country+CoreDataProperties.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +148,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CDCE5462289B4E300B56B43 /* country.json in Resources */,
 				8CDCE5372289B41300B56B43 /* LaunchScreen.storyboard in Resources */,
+				8C81D6922289BA3B00C8D619 /* model.json in Resources */,
 				8CDCE5342289B41300B56B43 /* Assets.xcassets in Resources */,
 				8CDCE52F2289B41200B56B43 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +165,9 @@
 			files = (
 				8CDCE5322289B41200B56B43 /* TravelingPlus___CoreData.xcdatamodeld in Sources */,
 				8CDCE52C2289B41200B56B43 /* ViewController.swift in Sources */,
+				8C81D6902289B99000C8D619 /* Country+CoreDataProperties.swift in Sources */,
+				8CDCE5442289B4C700B56B43 /* Country.swift in Sources */,
+				8C81D68F2289B99000C8D619 /* Country+CoreDataClass.swift in Sources */,
 				8CDCE52A2289B41200B56B43 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

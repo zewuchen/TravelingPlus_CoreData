@@ -16,7 +16,51 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let defaults = UserDefaults()
+        let opened = defaults.bool(forKey: "opened")
+        
+        if !opened{
+            
+            do {
+                if let path = Bundle.main.path(forResource: "country", ofType: "json", inDirectory: nil)
+                {
+                    let url = URL(fileURLWithPath: path)
+                    let jsonData = try Data(contentsOf: url)
+                    let countries = try JSONDecoder().decode(Countries.self, from: jsonData)
+                    
+                    for i in 0...countries.count-1{
+                        let registry = NSEntityDescription.insertNewObject(forEntityName: "Country", into: self.persistentContainer.viewContext) as! Country
+                        
+                        registry.name = countries[i].name
+                        registry.documentsAdults = countries[i].documentsAdults
+                        registry.documentsMinors = countries[i].documentsMinors
+                        registry.location1 = countries[i].location1
+                        registry.procedure = countries[i].procedure
+                        registry.location2 = countries[i].location2
+                        registry.cost = countries[i].cost
+                        registry.vality = countries[i].vality
+                        registry.others = countries[i].others
+                        
+                        self.saveContext()
+                    }
+                }
+            } catch {
+                print("Erro ao inserir os dados")
+            }
+            
+            defaults.set(true, forKey: "opened")
+        }
+        
+        do {
+            var registros:[Country] = []
+            registros = try self.persistentContainer.viewContext.fetch(Country.fetchRequest())
+            
+            print(registros[0].name!, " ", registros[1].name!, " ", registros[5].name!)
+        } catch {
+            print("Não deu pra encontrar os registros")
+        }
+        
         return true
     }
 

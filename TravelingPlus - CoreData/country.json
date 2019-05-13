@@ -1,0 +1,70 @@
+
+[
+    {
+        "name": "Argentina",
+        "documentsAdults": "DNI or Libreta Cívica or Libreta de Enrolamiento if you are over 75 years old;",
+        "documentsMinors": "Under 18 years old : DNI and original birth certificate or certified copy (certificates or testimonies are not accepted, except for the provinces that only issue this documentation)",
+        "procedure": "Present yourself at the chosen office with the electronic prepaid code and your document. Keep the voucher that they give you in the office until they take your passport to your home.",
+        "location1": "Buenos Aires, La Plata, Rosario or Córdoba capital: make an appointment at http://turnos.mininterior.gov.ar/turnosWeb/",
+        "location2": "Other locations in Argentina: look for the nearest office at http://www.mininterior.gov.ar/NuevoPasaporte/donde-tramito/donde-tramito.php",
+        "cost": "ARS $1,500.00",
+        "vality": "10 years",
+        "others": "Express: As it is a special procedure, the service is prepaid and has a differential cost. They deliver it to you at your home within 48 hours of the procedure, although it can be up to 96 hours depending on the locality. (https://www.argentina.gob.ar/tramitar-pasaporte-expres) Instantly: If you are traveling and do not have your passport up to date, you can process it instantly (with an additional cost) at the airports of Ezeiza, Aeroparque, Mendoza, Córdoba, Rosario and the Palermo neighborhood (Buenos Aires). (https://www.argentina.gob.ar/tramitar-el-pasaporte-al-instante)"
+    },
+    {
+        "name": "Brazil",
+        "documentsAdults": "Make sure that your electoral situation is regular and that there are no pending or typos in your data registered in the TSE database. Male applicants from January 1 of the year in which they turn 19 until December 31 of the year they turn 45 should make sure they are regular with compulsory military service and that there are no pending or error typed in their data registered in the SERMIL(MilitaryService) database.  Valid passport - The general guideline is to always present the previous passport(validor not) for physical cancellation and also in the SINPA system.  CPF(IndividualRegistration)  Make sure that the GRU payment has actually been made and not just the paymentschedule. Also make sure the amount has been paid correctly, including in cents. The consultation of the payment will be made automatically at the moment of the attendance. However, if the payment is not detected by the system, the bank receipt of payment of the Union Collection Guide - GRU for the fee due for the issuance of the required travel document may be requested.  ",
+        "documentsMinors": "Children under 12 years old can present original birth certificate instead of all the documents.",
+        "procedure": "Verify the necessary documentation,complete the online form (This is the link to complete the online form) https://servicos.dpf.gov.br/sinpa/inicializacaoSolicitacao.do?dispatch=inicializarSolicitacaoPassaporte Pay the appropriate fee (GRU) (This is the link to pay the GRU) https://servicos.dpf.gov.br/sinpa/reemissaoGRU.do?dispatcher=exibirConsulta. Schedule attendance at one of the federal police stations (This is the link to Schedule attendance) https://servicos.dpf.gov.br/sinpa/paginaInicialAgendamento.do Appear at the post on the scheduled date with 15 minutes of before the time. Track progress of request. Attending the same federal police station to receive a passport",
+        "location1": "In the site of Policia Federal you can do the procedure in this link: http://www.pf.gov.br/servicos-pf/passaporte/requerer-passaporte",
+        "location2": "NULL",
+        "cost": "BRL $257.25",
+        "vality": "10 years",
+        "others": "NULL"
+    },
+    {
+        "name": "Chile",
+        "documentsAdults": "Current Cédula de identidad",
+        "documentsMinors": "Current Cédula de identidad and notarial authorization from the parents (or legal representative), who must attend with their Cédula de Identidad and approve the child's passport via biometric reading. See more in: https://chile.gob.cl/toronto/tramites/para-extranjeros/autorizacion-a-menores-para-viajar",
+        "procedure": "Gather the necessary documents. Go to the nearest Civil Registry and Identification Service (SRCeI). Explain the reason for your visit: obtain or renew your passport. Deliver the required documents and pay the document amount. As a result of the procedure, you will have requested to obtain or renew your passport, which can be withdrawn within a maximum of six working days.",
+        "location1": "See the locations in: https://www.registrocivil.cl/principal/paginas-frecuentes/nuestras-oficinas",
+        "location2": "NULL",
+        "cost": "32 pages passport: CLP $89,660.00 64 pages passport: CLP $89,740.00",
+        "vality": "5 years",
+        "others": "NULL"
+    },
+    {
+        "name": "Colombia",
+        "documentsAdults": "Original and current Cédula de Ciudadanía accompanied by a simple copy of the Registro Civil de Nacimiento.",
+        "documentsMinors": "Be accompanied by one of their parents or legal representative and take the Registro Civil 'faithful copy of the original', not authenticated. For over 7 years: Registro Civil 'faithful of the original' + Tarjeta de Identidad. Keep the certificate issued at the Registraduría.",
+        "procedure": "Gather the necessary documents. Go to the nearest Office. Explain the reason for your visit: obtain or renew your passport. Deliver the required documents and pay the document amount.",
+        "location1": "Bogotá: - Hours and service https://www.cancilleria.gov.co/tramites_servicios/pasaportes/lugares_expedicion?qt-view__tramites_servicios__page_5=0#qt-view__tramites_servicios__page_5 - Other locations in Colombia - Look for the nearest office at https://www.cancilleria.gov.co/tramites_servicios/pasaportes/lugares_expedicion?qt-view__tramites_servicios__page_5=1#qt-view__tramites_servicios__page_5",
+        "location2": "Other locations in Colombia: look for the nearest office at https://www.cancilleria.gov.co/tramites_servicios/pasaportes/lugares_expedicion?qt-view__tramites_servicios__page_5=1#qt-view__tramites_servicios__page_5",
+        "cost": "Ordinário: COP $166,000.00 + Departmental taxes Executive: COP $256,000.00 + Departmental taxes",
+        "vality": "10 years",
+        "others": "There are more three types of procedures: Emergency, Border and Exempt."
+    },
+    {
+        "name": "Peru",
+        "documentsAdults": "DNI in good condition.",
+        "documentsMinors": "DNI of the minor in good condition Must accompany the child at least one of their parents with their respective identity document (ID in the case of Peruvians and Immigration Card, passport or other document in the case of foreigners). The data of the document of the father or mother must match the data of the minor's ID. The objective of presenting the document is only to verify the filiation of the minor. ",
+        "procedure": "Pay for the procedure. Enter the Online Appointment System to schedule your appointment and fill the informations. This link is to take your appointment https://sel.migraciones.gob.pe/web-citas-pasaporte/Citas-en-Linea-Informativo  Go on the day of your appointment, go to the Migrations headquarters that you have selected by taking your DNI and receipt of payment. Do not wear glasses or large mounts or moons that prevent eyes from seeing. Do not wear colored contact lenses. Do not wear headwear, hats, hair ties or hair covering the face. Do not wear piercings on your face.  Pick up your electronic passport. The delivery of the passport is made the same day of the appointment after fulfilling all the requirements. If for some reason you can not pick up your passport, you have 60 days to do it at the headquarters where you made the process.",
+        "location1": "It can be processed in the offices of the Superintendencia Nacional de Migraciones y en los Centros Mac (Mejor Atencion al Ciudadano).",
+        "location2": "This is the link to take the passaport in Centros MAC, it is a service made by phone. https://www.gob.pe/174-obtener-pasaporte-para-mayores-de-edad#4-modalidad-centros-mac",
+        "cost": "PER $98.50",
+        "vality": "5 years",
+        "others": "NULL"
+    },
+    {
+        "name": "Uruguay",
+        "documentsAdults": "Current Cédula de Identidad;",
+        "documentsMinors": "Current Cédula de Identidad or Testimonio de Partida Nacimiento (with less than 30 days of expedition), and notarial authorization from the parents (or legal representative), who must attend with their Cédula de Identidad.",
+        "procedure": "Teste",
+        "location1": "Montevideo: Bartolomé Mitre 1434 esquina 25 de mayo",
+        "location2": "Montevideo other locations, see the link: https://dnic.minterior.gub.uy/index.php/nuestras-oficinas",
+        "cost": "First time: UYU $3,207.00 + Judicial Background Certificate UYU $107.00",
+        "vality": "10 years",
+        "others": "There are more one type of procedure - En Línea: As an internet case. Log in with the user's account of Uruguay in this link https://tramites.gub.uy/ampliados?id=4991, click on the 'Iniciar Trámite en Línea' button, fill out the form and make the payment. - After presenting on the day and place marked with the documentation, the passport is removed on the same day of the appointment. *Procedures may vary according to regions outside the capital"
+    }
+]
+

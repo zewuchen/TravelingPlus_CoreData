@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18E226" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Country" representedClassName=".Country" syncable="YES">
+        <attribute name="cost" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="documentsAdults" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="documentsMinors" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="others" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="procedure" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vality" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Country" positionX="-63" positionY="-18" width="128" height="180"/>
+    </elements>
 </model>
