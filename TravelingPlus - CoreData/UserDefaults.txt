@@ -1,0 +1,8 @@
+let defaults = UserDefaults()
+let appHasBeenOpenedBefore = defaults.bool(forKey: "appHasBeenOpenedBefore")
+
+if !appHasBeenOpenedBefore {
+    // Save on CoreData
+    
+    defaults.set(true, forKey: "appHasBeenOpenedBefore")
+}
