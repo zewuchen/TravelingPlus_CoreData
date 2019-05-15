@@ -1,0 +1,46 @@
+//Declarar no escopo da View, ou usar o método SaveContext() do próprio AppDelegate
+//Usar isso preferencialmente no método application() do AppDelegate
+
+public var registros:[Country] = []
+var context:NSManagedObjectContext?
+
+override func viewDidLoad() {
+    super.viewDidLoad()
+    context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+
+    let defaults = UserDefaults()
+    let opened = defaults.bool(forKey: "opened")
+
+    if !opened {
+        if let context = context{
+
+            var text:String = ""
+            //Procurando o arquivo
+            if let path = Bundle.main.path(forResource: "data", ofType: "txt"){
+                text = try! String(contentsOfFile: path, encoding: String.Encoding.utf8)
+            }
+            else{
+                print("Arquivo não foi encontrado!")
+            }
+
+            //Separando os países
+            var paises = text.split(separator: ";")
+            //Inserindo cada país
+            for i in 0...paises.count-2{
+                let registry = NSEntityDescription.insertNewObject(forEntityName: "Country", into: context) as! Country
+
+                var pais = paises[i].split(separator: ",")
+                registry.name = String(pais[0])
+                registry.currency = String(pais[1])
+                registry.passport = String(pais[2])
+                registry.language = String(pais[3])
+
+                guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {return}
+                appDelegate.saveContext()
+            }
+        }
+
+    defaults.set(true, forKey: "opened")
+    }
+
+}

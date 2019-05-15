@@ -1,0 +1,4 @@
+Teste1,Moeda1,Passaporte1,Espanhol1;
+Teste2,Moeda2,Passaporte2,Espanhol2;
+Teste3,Moeda3,Passaporte3,Espanhol3;
+Teste4,Moeda4,Passaporte4,Espanhol4;

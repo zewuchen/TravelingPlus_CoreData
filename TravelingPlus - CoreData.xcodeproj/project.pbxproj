@@ -22,6 +22,8 @@
 		8CDCE5372289B41300B56B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDCE5352289B41300B56B43 /* LaunchScreen.storyboard */; };
 		8CDCE5442289B4C700B56B43 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDCE5432289B4C700B56B43 /* Country.swift */; };
 		8CDCE5462289B4E300B56B43 /* country.json in Resources */ = {isa = PBXBuildFile; fileRef = 8CDCE5452289B4E300B56B43 /* country.json */; };
+		8CF2AC8C228C9BFE00C74AC0 /* CoreDataBySplit.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8CF2AC8B228C9BFE00C74AC0 /* CoreDataBySplit.txt */; };
+		8CF2AC8E228C9E0800C74AC0 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8CF2AC8D228C9E0800C74AC0 /* data.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		8CDCE5382289B41300B56B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CDCE5432289B4C700B56B43 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		8CDCE5452289B4E300B56B43 /* country.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = country.json; sourceTree = "<group>"; };
+		8CF2AC8B228C9BFE00C74AC0 /* CoreDataBySplit.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreDataBySplit.txt; sourceTree = "<group>"; };
+		8CF2AC8D228C9E0800C74AC0 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				8CDCE5452289B4E300B56B43 /* country.json */,
 				8CD3F0102289CDB80058AB5B /* destination.json */,
 				8C81D6912289BA3B00C8D619 /* model.json */,
+				8CF2AC8D228C9E0800C74AC0 /* data.txt */,
+				8CF2AC8B228C9BFE00C74AC0 /* CoreDataBySplit.txt */,
 			);
 			path = "TravelingPlus - CoreData";
 			sourceTree = "<group>";
@@ -160,7 +166,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CF2AC8E228C9E0800C74AC0 /* data.txt in Resources */,
 				8CDCE5462289B4E300B56B43 /* country.json in Resources */,
+				8CF2AC8C228C9BFE00C74AC0 /* CoreDataBySplit.txt in Resources */,
 				8CDCE5372289B41300B56B43 /* LaunchScreen.storyboard in Resources */,
 				8C81D6922289BA3B00C8D619 /* model.json in Resources */,
 				8CDCE5342289B41300B56B43 /* Assets.xcassets in Resources */,
